@@ -460,6 +460,10 @@ ul {
   width: 100%;
 }
 
+.project-item h5 {
+  display: none;
+}
+
 .projects-content .owl-carousel {
   margin: 0 -30%;
   width: 160%;
@@ -474,6 +478,8 @@ ul {
   position: relative;
   z-index: 2;
 }
+
+
 
 .projects-content .text-content h4 {
   display: inline-block;
@@ -694,8 +700,14 @@ ul {
     width: 100%;
   }
   .projects-content .text-content {
-    display: none;
+    
+ 
+
   }
+  .project-item h5 {
+    display: initial;
+  }
+
   .contact-content .more-info {
     padding: 30px;
     margin-top: 0px;
